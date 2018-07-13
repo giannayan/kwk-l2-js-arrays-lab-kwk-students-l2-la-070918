@@ -19,5 +19,5 @@ return drivers.shift(name)
 }
 
 function appendDriver(name) {
-return drivers.pop(name)
+return drivers.concat(name)
 }
