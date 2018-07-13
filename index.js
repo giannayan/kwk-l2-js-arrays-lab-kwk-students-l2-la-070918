@@ -30,6 +30,6 @@ function removeLastDriver(name) {
 return drivers.pop(name)
 }
 
-function destructivelyRemoveLastDriver(name) {
+function removeFirstDriver(name) {
 return drivers.pop(name)
 }
