@@ -35,6 +35,6 @@ return clone
 }
 
 function removeFirstDriver(name) {
-var clone = drivers.slice(2);
+var clone = drivers.slice(1);
 return clone
 }
