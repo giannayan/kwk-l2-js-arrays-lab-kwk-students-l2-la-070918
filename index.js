@@ -29,8 +29,8 @@ return clone
 }
 
 function removeLastDriver(name) {
-var clone = drivers.pop(0);
-clone.push(name)
+var clone = drivers.push(0);
+clone.pop(name)
 return clone
 
 }
