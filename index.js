@@ -11,5 +11,5 @@ return drivers.unshift(name)
 
 
 function destructivelyRemoveDriver(name) {
-return drivers.(name)
+return drivers.splice(name)
 }
