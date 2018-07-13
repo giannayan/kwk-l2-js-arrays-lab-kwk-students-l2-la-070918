@@ -8,3 +8,8 @@ return drivers.push(name)
 function destructivelyPrependDriver(name) {
 return drivers.unshift(name)
 }
+
+
+function destructivelyAppendDriver(name) {
+return drivers.push(name)
+}
