@@ -26,6 +26,10 @@ function prependDriver(name) {
 return drivers.concat(name)
 }
 
+function removeLastDriver(name) {
+return drivers.pop(name)
+}
+
 function destructivelyRemoveLastDriver(name) {
 return drivers.pop(name)
 }
