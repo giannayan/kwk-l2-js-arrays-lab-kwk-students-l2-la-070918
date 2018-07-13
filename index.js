@@ -10,6 +10,6 @@ return drivers.unshift(name)
 }
 
 
-function destructivelyAppendDriver(name) {
-return drivers.push(name)
+function destructivelyRemoveDriver(name) {
+return drivers.(name)
 }
