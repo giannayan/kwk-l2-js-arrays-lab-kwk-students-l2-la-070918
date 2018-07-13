@@ -1,3 +1,2 @@
 // Write your solution here!
-var drivers = ['Milo', 'Otis', 'Garfield']
-const 
+const drivers = ['Milo', 'Otis', 'Garfield']
