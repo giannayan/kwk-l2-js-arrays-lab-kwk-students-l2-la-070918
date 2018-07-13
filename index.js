@@ -23,7 +23,7 @@ return drivers.concat(name)
 }
 
 function prependDriver(name) {
-return drivers.slice(2)
+return drivers.concat(2)
 }
 
 function removeLastDriver(name) {
