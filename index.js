@@ -29,14 +29,12 @@ return clone
 }
 
 function removeLastDriver(name) {
-var clone = drivers.slice(2);
-clone.pop(name)
+var clone = drivers.slice(0, drivers.length-1);
 return clone
 
 }
 
 function removeFirstDriver(name) {
-var clone = drivers.slice(0);
-clone.unshift(name)
+var clone = drivers.slice(2);
 return clone
 }
