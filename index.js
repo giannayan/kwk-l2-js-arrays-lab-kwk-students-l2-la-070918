@@ -22,7 +22,7 @@ function appendDriver(name) {
 return drivers.concat(name)
 }
 
-function prependDriver(2) {
+function prependDriver(name) {
 return drivers.slice(2)
 }
 
