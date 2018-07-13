@@ -24,5 +24,5 @@ return drivers.concat(name)
 
 
 function prependDriver(name) {
-return drivers.(name)
+return drivers.slice(name)
 }
