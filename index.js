@@ -23,11 +23,15 @@ return drivers.concat(name)
 }
 
 function prependDriver(name) {
-return drivers.concat(0)
+var clone = drivers.slice(0);
+clone.unshift(name)
+return clone
 }
 
 function removeLastDriver(name) {
 return drivers.pop(0)
+
+
 }
 
 function removeFirstDriver(name) {
